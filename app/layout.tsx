@@ -24,11 +24,11 @@ export default function RootLayout({
 			<body className={inter.className}>
 				<AuthProvider>
 					<main className="min-h-screen">
-						<div className="container mx-auto px-4 py-16 ">
+						<div className="container mx-auto p-8 py-16 ">
 							<div className="flex justify-between">
 								<a href="/" className="flex items-center justify-center mb-6">
 									<Shield className="h-12 w-12 text-primary" />
-									<h1 className="text-4xl font-bold ml-4">SafeID</h1>
+									<h1 className="text-4xl font-bold ml-2">SafeID</h1>
 								</a>
 								<AuthButton />
 							</div>
